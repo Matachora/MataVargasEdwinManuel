@@ -1,0 +1,130 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+    color: #4A4E66;
+}
+.content {
+    padding: 0px 20%;
+}
+div.header {
+    background-color: #4a235a;  
+    margin: 0%;
+    padding-top: 1%;
+    height: 150px;
+    color: white;
+}
+div.headerContent {
+    margin: 0 20% 0 20%;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.elemento {
+    background-color: #4a235a;
+    width: 100px;
+    height: 100px;
+    transition: 
+        background-color 1s ease,
+        height 2s ease,
+        width 2s ease,
+        transform 2s ease;
+    transform-origin: center center;
+}
+.elemento:hover {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+}
+
+
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #4a235a;
+    text-align: center;
+    display: block;
+    width: 100px;
+    transition: width 2s ease;
+}
+nav ul li a:hover {
+    background-color: brown;
+    color: white;
+    width: 150px;
+}
+.showSubMenu {
+    display: none;
+    position: absolute;
+}
+.primero:hover .showSubMenu {
+    list-style: none;
+    padding-left: 0 ;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.menuCircular {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roundObj {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.obj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom left, brown 50%, #4a235a 50%);
+    color: white;
+    transition: transform 2s ease,
+        width 2s ease,
+        height 2s ease;
+    transform-origin: center center;
+}
+.obj a {
+    text-decoration: none;
+    color: white;
+    transition: transform 2s ease;
+    transform-origin: center center;
+}
+.obj:hover {
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
+}
+.obj:hover a {
+    transform: rotate(-360deg); /* Aplica una rotación inversa al texto */
+}
