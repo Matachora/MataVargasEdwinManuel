@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo Personalizado</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="nombre">
+        <input type="button" name="submit" id="enviar" value="enviar" onclick="capturarNombre()">
+    </form>
+</body>
+<script>
+    function capturarNombre()
+    {
+        let nombre = document.getElementById("nombre").value;
+        nombre.innerHTML = "<h1>Hola " + nombre + "</h1>";
+        console.log(nombre);
+    }
+</script>
+</html>
