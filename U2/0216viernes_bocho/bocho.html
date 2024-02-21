@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocho</title>
+    <link rel="stylesheet" href="bocho.css">
+</head>
+<body>
+    <header>
+        <h1>Bocho</h1>
+        <p>Edwin Vargas</p>
+    </header> 
+    <div class="container" >
+        <img src="bocho/bocho_rojo.jpg" alt="bocho_rojo" id="bochoPic">
+        <div class="options">
+            <div class="color-option rojo" onclick="divColorChanger('rojo')" ></div>
+            <div class="color-option azul" onclick="divColorChanger('azul')" ></div>
+            <div class="color-option amarillo" onclick="divColorChanger('amarillo')" ></div>
+            <div class="color-option blanco" onclick="divColorChanger('blanco')"></div>
+        </div>
+    </div>
+    <div class="container" >
+        <img src="bocho/bocho_azul.jpg" alt="bocho_rojo" id="bochoPic2">
+        <div class="options">
+            <div class="options">
+                <div class="optElement">
+                    <input type="radio" name="color" value="rojo" id="rojo" onchange="radioColorChanger('rojo')" />
+                    <label for="rojo" >Rojo</label>
+                </div>
+                <div class="optElement">
+                    <input type="radio" name="color" value="azul" id="azul" onchange="radioColorChanger('azul')" />
+                    <label for="azul" >Azul</label>
+                </div>
+                <div class="optElement">
+                    <input type="radio" name="color" value="amarillo" id="amarillo" onchange="radioColorChanger('amarillo')" />
+                    <label for="amarillo" >Amarillo</label>
+                </div>
+                <div class="optElement">
+                    <input type="radio" name="color" value="blanco" id="blanco" onchange="radioColorChanger('blanco')" />
+                    <label for="blanco" >Blanco</label>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="container" >
+        <img src="bocho/bocho_blanco.jpg" alt="bocho_rojo" id="bochoPic3">
+        <div class="options">
+            <select onchange="selectColorChanger(this.value)">
+                <option value="rojo">Rojo</option>
+                <option value="azul">Azul</option>
+                <option value="amarillo">Amarillo</option>
+                <option value="blanco" selected="selected" >Blanco</option>
+            </select>
+        </div>
+    </div>
+</body>
+<script>
+    function divColorChanger(color)
+        { document.getElementById('bochoPic').src = "bocho/bocho_"+color+".jpg"; }
+    function radioColorChanger(color) 
+        { document.getElementById('bochoPic2').src = "bocho/bocho_"+color+".jpg"; }
+    function selectColorChanger(color) 
+        { document.getElementById('bochoPic3').src = "bocho/bocho_"+color+".jpg"; }
+</script>
+</html>

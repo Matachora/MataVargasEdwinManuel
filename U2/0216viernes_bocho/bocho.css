@@ -1,0 +1,64 @@
+* {
+    font-family:Verdana;
+    margin: 0%;
+    color: #4A4E66;
+}
+header 
+{
+    background-color: #4a235a;
+    margin: 0;  
+    padding: 2vh 20vw 1vh;
+}
+header p {color: white;}
+header h1 {color: white;}
+
+/* BOCHO CSS ¨*/
+.container
+{
+    margin: 5vh ;
+    text-align: center;
+}
+.options
+{
+    background-color: burlywood;
+    width: 500px;
+    height: 75px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color-option
+{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+img
+{
+    border-radius: 10px ;
+    width: 640px;
+    height: 360px;
+}
+.optElement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+select
+{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+.rojo{background-color: red;}
+.azul{background-color: blue;}
+.amarillo{background-color: yellow;}
+.blanco{background-color: white;}
