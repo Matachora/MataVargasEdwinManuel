@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?w=740&t=st=1706502253~exp=1706502853~hmac=6438e48301d102573e26826cfd6f5852ad844e65391bd2e2ab9b0324fcff59d5);
+    background-size: 100vw; 
+    background-attachment: fixed;
+}
+.firstPart  {
+    width: 400px;
+    margin: 0 auto;
+}
+#titulo {
+    color: brown;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.parrafo1 {
+    color: black;
+}
+p {
+    font-family: Verdana;
+    color: black;
+    font-weight: bolder;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: brown;
+    color: white;
+}
+.showSubMenu {
+    display: none;
+    position: absolute;
+}
+.menu:hover .showSubMenu {
+    display: block;
+    background-color: #F2EDE7;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid red;
+}

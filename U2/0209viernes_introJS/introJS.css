@@ -1,0 +1,35 @@
+* {
+    font-family:Verdana;
+    margin: 0%;
+    color: #4A4E66;
+}
+header 
+{
+    background-color: #4a235a;
+    margin: 0; 
+    padding: 2vh 20vw 1vh;
+}
+header p {color: white;}
+header h1 {color: white;}
+
+.container
+{
+    font-size: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width:720px) 
+{
+    * {
+        font-family:Verdana;
+        margin: 0%;
+        color: #4A4E66;
+        font-size: large;
+    }
+    header 
+    {
+        background-color: #4a235a;
+        margin: 0; 
+        padding: 2vh 10vw 1vh;
+    }   
+}

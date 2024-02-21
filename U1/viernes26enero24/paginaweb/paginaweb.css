@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?w=740&t=st=1706502253~exp=1706502853~hmac=6438e48301d102573e26826cfd6f5852ad844e65391bd2e2ab9b0324fcff59d5);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    font-family: Tahoma;
+    padding: 0px 10vw;
+}
+header {
+    height: 250px;
+    width: 80vw;
+    background: rgba( 242, 237, 231, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+}

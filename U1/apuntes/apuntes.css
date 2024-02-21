@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+}
+div.header {
+    background-color: #4a235a;
+    margin: 0%;
+    padding-top: 1%;
+    height: 150px;
+    color: white;
+}
+div.headerContent {
+    margin: 0 20% 0 20%;
+}

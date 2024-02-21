@@ -1,0 +1,13 @@
+upperacse, lower case
+box shadow
+font family
+text-transform
+font-style
+CCS COMENTS /**/
+
+Es una mala práctica usar el font style en los casos de negritas poroque googel esacaen el index y puede no tomarle importancia a aquello que deseamos resaltar
+Las etiquetas tipo bloque permiten anidar elementos, 
+TODO LO DEL MARTES
+
+nombre apellido materia
+hacer las tablas

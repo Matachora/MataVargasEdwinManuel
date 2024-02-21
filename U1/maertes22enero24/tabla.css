@@ -1,0 +1,32 @@
+
+td {
+    font-family: Verdana;
+    font-size: 30px;
+    height: 35px;
+    vertical-align: bottom;
+    color: white;
+}
+.rr1 {
+    text-align: center;
+}
+#r1 {
+    width: 50px;
+}
+#r2 {
+    width: 500px;
+}
+#r3 {
+    width: 300px;
+}
+#r4 {
+    width: 300px;
+}
+.blueMarine {
+    background-color: rgb(27, 27, 83);
+}
+.blue {
+    background-color: rgb(31, 31, 117);
+}
+.blueSoft {
+    background-color: rgb(62, 62, 135);
+}

@@ -1,0 +1,41 @@
+body {
+    color: white;
+    background-color: black;
+    padding: 15%;
+    font-family: Verdana;
+}
+h2 {    
+    text-align: center;
+}
+div.container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: aqua;
+}
+nav {
+   background-color: bisque; 
+}   
+section.sec{
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+}
+article {
+    background-color: blue;
+}
+aside {
+    background-color: blueviolet;
+}
+footer {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+footer.div {
+    flex: 1;
+}
+
