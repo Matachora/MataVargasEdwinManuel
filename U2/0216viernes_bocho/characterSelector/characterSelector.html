@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharacterSelector</title>
+    <link rel="stylesheet" href="characterSelector.css">
+    <script src="characterSelector.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Selector de Personajes</h1>
+        <p>Edwin Vargas</p>
+    </header> 
+    <nav>
+        <ul>
+            <li id="HuTao">
+                <button class="HuTaobtn" onclick="main('hutao')" >
+                    <img class="icon" src="media/hutao/HuTao_icon.webp" alt="HuTaoIcon">
+                </button>
+            </li>
+            <li id="Zhongli">
+                <button class="Zhonglibtn" onclick="main('zhongli')" >
+                    <img class="icon" src="media/zhongli/Zhongli_icon.webp" alt="ZhongliIcon">
+                </button>
+            </li>
+            <li id="Jean">
+                <button class="Jeanbtn" onclick="main('jean')" >
+                    <img class="icon" src="media/jean/Jean_icon.webp" alt="JeanIcon">
+                </button>
+            </li>
+            <li id="Diluc">
+                <button class="Dilucbtn" onclick="main('diluc')" >
+                    <img class="icon" src="media/diluc/Diluc_icon.webp" alt="DilucIcon">
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <div class="infoContainer">
+        <div class="info" id="History"></div>
+        <div class="characterPic">
+            <img id="pic">
+        </div>
+    </div>
+</body>
+</html>

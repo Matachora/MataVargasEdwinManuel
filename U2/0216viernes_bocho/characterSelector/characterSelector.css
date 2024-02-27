@@ -1,0 +1,96 @@
+/* VARIABLES */
+:root {
+    --fondo: #4a235a;
+}
+* {
+    font-family:Verdana;
+    margin: 0%;
+    color: white;
+}
+header 
+{
+    background: var(--fondo);
+    margin: 0;  
+    padding: 0 20vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header p {color: white;}
+header h1 {color: white;}
+
+/* SELECTOR DE PERSONAJES CSS ¨*/
+
+
+/* MENU PERSONAJES */
+
+nav
+{
+    background: var(--fondo);
+    height: 20vh;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul button
+{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+ul img
+{
+    width: 128px;
+}
+button:hover
+{
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: inset -11px 11px 22px #1e0e24,
+                inset 11px -11px 22px #1e0e24;
+}
+.HuTaobtn:hover
+{
+    background: linear-gradient(90deg,#3d1111,#873838 51.42%,#3d1111);
+
+}
+.Zhonglibtn:hover
+{
+    background: linear-gradient(90deg,#332414,#80692b 51.42%,#332914);
+}
+.Jeanbtn:hover
+{
+    background: linear-gradient(90deg,#17332f,#1c5c56 50%,#17332f);
+}
+.Dilucbtn:hover
+{
+    background: linear-gradient(90deg,#3d1111,#873838 51.42%,#3d1111);
+}
+
+
+/* CHARACTER INFO & PIC */
+
+.infoContainer
+{
+    display: flex;
+    align-items: center;
+    background: var(--fondo);
+    width: 100vw;
+    height: 65vh;
+}
+.characterPic img
+{
+    height: 65vh;
+}
+.info
+{
+    padding: 0 10vw;
+    font-size: 20px;
+    font-weight: 300;
+}
