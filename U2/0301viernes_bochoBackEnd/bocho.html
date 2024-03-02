@@ -1,0 +1,39 @@
+<!--IMPRIMIR EN UNA LISTA DESORDENADA DE MANERA HORIZONTAL-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocho JS</title>
+    <link rel="stylesheet" href="bocho.css">
+</head>
+<body>
+    <header>
+        <h1>Bocho JS options</h1>
+        <p>Edwin Vargas</p>
+    </header> 
+    <div class="container" >
+        <img src="bocho/bocho_blanco.jpg" alt="bocho_rojo" id="bochoPic3">
+        <div class="options">
+            <select id="colorSelected" onchange="selectColorChanger(this.value)">
+                
+            </select>
+        </div>
+    </div>
+</body>
+<script>
+    function selectColorChanger(color) 
+        { document.getElementById('bochoPic3').src = "bocho/bocho_"+color+".jpg"; }
+</script>
+<script>
+    const colores = ['rojo', 'azul', 'blanco', 'amarillo'];
+    let colorSelected = document.getElementById('colorSelected');
+
+    colores.forEach(function(color) {
+        let option = document.createElement('Option');
+        option.value = color;
+        option.innerHTML = color;
+        colorSelected.add(option);
+    });
+</script>
+</html>
