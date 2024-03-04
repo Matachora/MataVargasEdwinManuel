@@ -1,0 +1,76 @@
+*
+{
+    font-family: Segoe UI;    
+    font-size: 20px; 
+}
+body
+{
+    background-color: #400080;
+}
+h1
+{
+    font-size: 40px; 
+    color: white;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+
+    border-radius: 50px;
+    background: #400080;
+    box-shadow: inset 20px 20px 46px #2c0058,
+                inset -20px -20px 46px #5400a8; 
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-weight: 700;
+    color: white;
+}
+input
+{
+    margin: 5px 0 20px;
+    width: 30vw;
+    border-radius: 10px;
+}
+select
+{
+    margin: 5px 0 20px; 
+    border-radius: 10px;
+}
+button
+{
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.output
+{
+    color: white;
+    margin-top: 50px;
+}
+footer
+{
+    display: flex;
+    justify-content: end;
+}
+p
+{
+    font-family: 'Times New Roman';
+    color: white;
+    margin-right: 50px;
+    
+}
