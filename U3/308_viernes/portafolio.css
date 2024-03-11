@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 700;
+    background: #1C1D1E;
+    color: #fff;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+
+
+
+
+
+
+
+
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+span {
+    color: #663399;
+}
+h1 {
+    font-size: 6em;
+    padding: 10vh 0 5vh;
+}
+h2 {
+    font-size: 3em;
+    color: #666;
+    margin-bottom: 10vh;
+}
+h2:hover {
+    color: #663399;
+}
+.landing a {
+    background: #222222;
+    padding: 2vh 2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2vh 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+.mailMe ul {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.mailMe i {
+    color:#666666;
+    font-size: 48px;
+    margin-right: 5vw;
+}
+.fa-linkedin:hover {color: #0A66C2;}
+.fa-square-whatsapp:hover {color: #2DD46C;}
+.fa-square-github:hover {color: #663399;}
+.fa-envelope:hover {color: #D65144;}
+
+
+
+
+.skillStack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.skillStack ul {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skillStack img{
+    height: 3em;
+    margin: 50px;
+}
+.skillStack i {
+    font-size: 3em;
+    margin: 50px;
+}
+
+
+
+
+
+.works {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.works article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.works img {
+    margin-bottom: 10vh;
+    width: 40vw;
+    border-radius: 5%;
+    border: 10px solid #666;
+}
+.descripcion {
+    width: 100%;
+    text-align: start;
+    padding: 0 5vw;
+}
